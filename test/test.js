@@ -7,10 +7,11 @@ var assert = require('assert');
 var operaciones = require('../operations.js');
 
 // Test
-it('comprobar función suma', function() {
-	assert.equal(operaciones.suma(1,3), 4);
-	assert.equal(operaciones.suma(-1,3), 2);
-	assert.equal(operaciones.suma(8,-3), 5);
+it('comprobar función par', function() {
+	assert.equal(operaciones.par(4), 0);
+	assert.equal(operaciones.par(5), 1);
+	assert.equal(operaciones.par(17), 1);
+	assert.equal(operaciones.par(36), 0);
 });
 
 

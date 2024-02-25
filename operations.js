@@ -1,16 +1,14 @@
-/* Función suma */
-var suma = function suma (a, b) {
-	return a + b;	
+/* Función par */
+var par = function par (a) {
+if (a%2==0)
+    return 0;
+else
+	return 1;
 };
 
-/* Función resta */
-var resta = function suma (a, b) {
-	return a - b;	
-};
 
-/* Exportación de funciones */
+/* Exportación de funcion */
 module.exports = {
-	suma,
-	resta
+	par
 }
 
