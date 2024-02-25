@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ejemplo proyecto TDD NodeJS
 
 Fuente: https://www.taniarascia.com/unit-testing-in-javascript/
@@ -42,3 +43,6 @@ La metodología de [Desarrollo Guiado por Pruebas](https://es.wikipedia.org/wiki
 5. Refactorizar el código (eliminar duplicidades, etc.)
 6. Volver a comprobar que se pasan todos los tests
 
+=======
+# sesion5-integracion-continua
+>>>>>>> f92cecacc222d4d63a38668fe7506b6b4bfca28c
